@@ -319,6 +319,34 @@ a:focus {
   margin-bottom: var(--spacing-8);
 }
 
+
+/* MY CUSTOM CSS */
+.result-num {
+  font-weight: 700;
+  font-family: monospace;
+  margin: 2em 0;
+}
+.banner-img {
+  max-width: 100%;
+}
+.post-grid {
+  display: grid;
+  grid-template-columns: 10em auto;
+  grid-gap: 1em;
+}
+.banner-preview {
+  max-width: 100%;
+  grid-row: span 2;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.menu li {
+  margin-right: 1em;
+}
 /* Media queries */
 
 @media (max-width: 42rem) {
